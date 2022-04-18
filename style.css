@@ -938,6 +938,9 @@ display: none;
     margin-top: -12rem;
 
   }
+  .menu-logo{
+    margin-left: -2rem;
+  }
   .menu-container {
     flex-direction: column;
     align-items: flex-end;
@@ -1006,6 +1009,10 @@ display: none;
   background-color: var(--background);
 }
 .bitblob2{
-  padding-right: 20rem;
+  position: relative;
+  z-index: -2;
+  transform: scale(1.3);
+margin-left: -38rem;
+margin-top: 27rem;
 }
 }
