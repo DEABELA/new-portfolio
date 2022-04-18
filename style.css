@@ -1015,4 +1015,8 @@ display: none;
 margin-left: -38rem;
 margin-top: 27rem;
 }
+.index{
+  overflow: hidden;
+  margin-bottom: -29rem;
+}
 }
