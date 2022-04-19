@@ -394,7 +394,6 @@ margin-top: -7.5rem;
   background-color: var(--secbackground);
   padding-left: 9rem;
  margin-top: -5rem;
- overflow-x: hidden;
  
 bottom:0;
 }
@@ -516,6 +515,7 @@ transform: rotateZ(0deg);
 .branding{
   margin-top: -7rem;
   margin-left: -12rem;
+  padding-right: 6rem;
   font-size: 48px;
   transform: scale(0.6);
 }
@@ -785,11 +785,6 @@ display: none;
 .slider-text-container{
  display: none;
 }
-
-
-.under h2,p{
-  display: none;
-}
 .hero{
   display: block;
   margin-left: -4rem;
@@ -842,6 +837,7 @@ display: none;
 
 
 @media only screen and (max-width: 412px) {
+  
   .writing{
    margin-left: -17rem;
     margin-top: -12rem;
@@ -874,9 +870,10 @@ display: none;
 .slider-text-container{
  display: none;
 }
-
-
-.under h2,p{
+.under >h2 {
+  display: none;
+}
+.under > p {
   display: none;
 }
 .hero{
@@ -944,9 +941,11 @@ margin-top: 27rem;
 }
 
 .whatIdo-ill{
+  transform: scale(.7);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow-x: visible;
 }
 .webdesign{
   transform: scale(0.4);
@@ -985,7 +984,7 @@ margin-top: 27rem;
   margin-bottom: -25rem;
 }
 .contact p{
-  margin-left: -50rem;
+  margin-left: 0rem;
   background-color: var(--background);
   color: var(--foreground);
 }
